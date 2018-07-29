@@ -1,20 +1,4 @@
-package exam;
-
-public class Main1 {
-	private statasdfasdfic final String QUERY1 = "CREATE TABLE `exam2`.`users` (\n" +
-			"  `id` INT NOT NULL AUTO_INCREMENT,\n" +
-			"  `name` VARCHAR(60) NULL,\n" +
-			"  `email` VARCHAR(60) NULL,\n" +
-			"  `password` VARCHAR(60) NULL,\n" +
-			"  PRIMARY KEY (`id`),\n" +
-			"  UNIQUE INDEX `email_UNIQUE` (`email` ASC));";
-	private static final String QUERY2 = "CREATE TABLE `exam2`.`messages` (\n" +
-			"  `id` INT NOT NULL AUTO_INCREMENT,\n" +
-			"  `message` TEXT NULL,\n" +
-			"  `user_id` INT NULL,\n" +
-			"  PRIMARY KEY (`id`),\n" +
-			"  INDEX `fk_messages_1_idx` (`user_id` ASC),\n" +
-			"  CONSTRAINT `fk_messages_1`\n" +
+packageasdfa
 			"    FOREIGN KEY (`user_id`)\n" +
 			"    REFERENCES `exam2`.`users` (`id`)\n" +
 			"    ON DELETE NO ACTION\n" +
